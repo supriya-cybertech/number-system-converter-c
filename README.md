@@ -1,16 +1,22 @@
-# Number System Converter (C)
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C-blue.svg?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/supriya-cybertech/number-system-converter-c?style=for-the-badge&color=brightgreen">
+  <img src="https://img.shields.io/github/last-commit/supriya-cybertech/number-system-converter-c?style=for-the-badge&color=orange">
+  <img src="https://img.shields.io/github/repo-size/supriya-cybertech/number-system-converter-c?style=for-the-badge&color=blueviolet">
+</p>
 
-A small command-line tool written in C to convert numbers between bases (2–36). Good for learning parsing, validation and string manipulation in C. Clean, documented and easy to extend.
+<h1 align="center">🔢 Number System Converter (C)</h1>
 
-## Features
-- Convert a number from a source base to a target base (2–36).
-- Supports optional leading `-` for negative numbers.
-- Validates input digits for the source base.
-- Clear CLI usage and examples.
+<p align="center">
+  A lightweight and efficient CLI tool written in C that converts numbers between different bases (2–36).  
+  Designed for students and developers learning system-level programming and base arithmetic.
+</p>
 
-## Build
-```bash
-# from repo root
-make
-# or compile directly
-gcc -std=c11 -O2 -Wall -Wextra -o bin/numconv src/numconv.c
+---
+
+## 📖 Overview
+
+This project demonstrates **number system conversion** using core C programming principles — no external libraries, just clean logic, efficient computation, and precise error handling.
+
+It takes **three inputs**:
+
