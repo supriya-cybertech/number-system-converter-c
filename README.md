@@ -44,3 +44,20 @@ All of this is done using efficient C logic and minimal memory footprint — mak
 
 ⚙️ Educators demonstrating numeric conversion logic in lectures or labs
 
+---
+
+### ⚙️ Flowchart Overview
+Below is the logical flow of the Number System Conversion process:
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[Input Source Base, Target Base, Number]
+    B --> C{Validate Bases 2-36?}
+    C -->|No| E[Display Error and Exit]
+    C -->|Yes| D{Validate Digits?}
+    D -->|No| E
+    D -->|Yes| F[Convert to Decimal]
+    F --> G[Convert Decimal to Target Base]
+    G --> H[Display Result]
+    H --> I([End])
+```
