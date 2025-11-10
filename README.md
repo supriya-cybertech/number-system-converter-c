@@ -8,7 +8,7 @@
 <h1 align="center">🔢 Number System Converter (C)</h1>
 
 <p align="center">
-  A lightweight and efficient CLI tool written in C that converts numbers between different bases (2–36).  
+  A lightweight and efficient CLI tool written in C language that converts numbers between different bases (2–36).  
   Designed for students and developers learning system-level programming and base arithmetic.
 </p>
 
